@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Authors>Jordan Osborn</Authors>
+        <Description>Adds fluent syntax support for common math operations.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageVersion>1.0.2</PackageVersion>
+    </PropertyGroup>
+</Project>
