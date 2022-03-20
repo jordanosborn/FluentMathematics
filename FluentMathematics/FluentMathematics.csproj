@@ -4,7 +4,15 @@
         <Authors>Jordan Osborn</Authors>
         <Description>Adds fluent syntax support for common math operations.</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageVersion>1.0.2</PackageVersion>
+        <PackageVersion>1.0.3</PackageVersion>
         <RepositoryUrl>https://github.com/jordanosborn/FluentMathematics</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>Math Mathematics Fluent Extensions</PackageTags>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 </Project>

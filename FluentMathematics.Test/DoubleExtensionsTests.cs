@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 
 namespace FluentMathematics.Test;
@@ -10,5 +11,11 @@ public class DoubleExtensionsTests
     public int Test_sign_returns_expected(double x)
     {
         return x.Sign();
+    }
+
+    [Test]
+    public void Test_sin_returns_expected()
+    {
+        Assert.That((Math.PI / 2).Sin().AlmostEqual(1));
     }
 }
